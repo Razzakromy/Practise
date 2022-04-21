@@ -2,468 +2,114 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Audiowide">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <p id="para1">Hello World!</p>
-    <h1>My First CSS Example</h1>
-    <p>This is a paragraph.</p>
-    <h1 style="color:blue;text-align:center;">This is a heading</h1>
-    <p style="color:red;">This is a paragraph.</p>
-    <h1 style="background-color:Tomato;">Tomato</h1>
-    <h1 style="background-color:Orange;">Orange</h1>
-    <h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
-    <h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
-    <h1 style="background-color:Gray;">Gray</h1>
-    <h1 style="background-color:SlateBlue;">SlateBlue</h1>
-    <h1 style="background-color:Violet;">Violet</h1>
-    <h1 style="background-color:LightGray;">LightGray</h1>
-    <h1 style="background-color:DodgerBlue;">Hello World</h1>
-    <p style="background-color:Tomato;">Lorem ipsum...</p>
-    <h1>Specify colors using RGB values</h1>
-    <h2 style="background-color:rgb(255, 0, 0);">rgb(255, 0, 0)</h2>
-    <h2 style="background-color:rgb(0, 0, 255);">rgb(0, 0, 255)</h2>
-    <h2 style="background-color:rgb(60, 179, 113);">rgb(60, 179, 113)</h2>
-    <h2 style="background-color:rgb(238, 130, 238);">rgb(238, 130, 238)</h2>
-    <h2 style="background-color:rgb(255, 165, 0);">rgb(255, 165, 0)</h2>
-    <h2 style="background-color:rgb(106, 90, 205);">rgb(106, 90, 205)</h2>
-    <h2 style="background-color:rgb(60, 60, 60);">rgb(60, 60, 60)</h2>
-    <h2 style="background-color:rgb(90, 90, 90);">rgb(90, 90, 90)</h2>
-    <h2 style="background-color:rgb(120, 120, 120);">rgb(120, 120, 120)</h2>
-    <h2 style="background-color:rgb(180, 180, 180);">rgb(180, 180, 180)</h2>
-    <h2 style="background-color:rgb(210, 210, 210);">rgb(210, 210, 210)</h2>
-    <h2 style="background-color:rgb(240, 240, 240);">rgb(240, 240, 240)</h2>
-    <h2 style="background-color:rgba(255, 99, 71, 0);">rgba(255, 99, 71, 0)</h2>
-    <h2 style="background-color:rgba(255, 99, 71, 0.2);">rgba(255, 99, 71, 0.2)</h2>
-    <h2 style="background-color:rgba(255, 99, 71, 0.4);">rgba(255, 99, 71, 0.4)</h2>
-    <h2 style="background-color:rgba(255, 99, 71, 0.6);">rgba(255, 99, 71, 0.6)</h2>
-    <h2 style="background-color:rgba(255, 99, 71, 0.8);">rgba(255, 99, 71, 0.8)</h2>
-    <h2 style="background-color:rgba(255, 99, 71, 1);">rgba(255, 99, 71, 1)</h2>
-    <h1>Specify colors using HEX values</h1>
-
-    <h2 style="background-color:#ff0000;">#ff0000</h2>
-    <h2 style="background-color:#0000ff;">#0000ff</h2>
-    <h2 style="background-color:#3cb371;">#3cb371</h2>
-    <h2 style="background-color:#ee82ee;">#ee82ee</h2>
-    <h2 style="background-color:#ffa500;">#ffa500</h2>
-    <h2 style="background-color:#6a5acd;">#6a5acd</h2>
-    <h1>Shades of gray</h1>
-
-    <p>By using equal values for red, green, and blue, you will get different shades of gray:</p>
-
-    <h2 style="background-color:#3c3c3c;">#3c3c3c</h2>
-    <h2 style="background-color:#616161;">#616161</h2>
-    <h2 style="background-color:#787878;">#787878</h2>
-    <h2 style="background-color:#b4b4b4;">#b4b4b4</h2>
-    <h2 style="background-color:#f0f0f0;">#f0f0f0</h2>
-    <h2 style="background-color:#f9f9f9;">#f9f9f9</h2>
-    <h1>Specify colors using HSL values</h1>
-
-    <h2 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h2>
-    <h2 style="background-color:hsl(240, 100%, 50%);">hsl(240, 100%, 50%)</h2>
-    <h2 style="background-color:hsl(147, 50%, 47%);">hsl(147, 50%, 47%)</h2>
-    <h2 style="background-color:hsl(300, 76%, 72%);">hsl(300, 76%, 72%)</h2>
-    <h2 style="background-color:hsl(39, 100%, 50%);">hsl(39, 100%, 50%)</h2>
-    <h2 style="background-color:hsl(248, 53%, 58%);">hsl(248, 53%, 58%)</h2>
-
-    <h2 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h2>
-    <h2 style="background-color:hsl(0, 80%, 50%);">hsl(0, 80%, 50%)</h2>
-    <h2 style="background-color:hsl(0, 60%, 50%);">hsl(0, 60%, 50%)</h2>
-    <h2 style="background-color:hsl(0, 40%, 50%);">hsl(0, 40%, 50%)</h2>
-    <h2 style="background-color:hsl(0, 20%, 50%);">hsl(0, 20%, 50%)</h2>
-    <h2 style="background-color:hsl(0, 0%, 50%);">hsl(0, 0%, 50%)</h2>
-
-    <h2 style="background-color:hsl(0, 0%, 0%);">hsl(0, 0%, 0%)</h2>
-    <h2 style="background-color:hsl(0, 0%, 24%);">hsl(0, 0%, 24%)</h2>
-    <h2 style="background-color:hsl(0, 0%, 47%);">hsl(0, 0%, 47%)</h2>
-    <h2 style="background-color:hsl(0, 0%, 71%);">hsl(0, 0%, 71%)</h2>
-    <h2 style="background-color:hsl(0, 0%, 94%);">hsl(0, 0%, 94%)</h2>
-    <h2 style="background-color:hsl(0, 0%, 100%);">hsl(0, 0%, 100%)</h2>
-
-    <h1>Make transparent colors with HSLA</h1>
-
-    <h2 style="background-color:hsla(9, 100%, 64%, 0);">hsla(9, 100%, 64%, 0)</h2>
-    <h2 style="background-color:hsla(9, 100%, 64%, 0.2);">hsla(9, 100%, 64%, 0.2)</h2>
-    <h2 style="background-color:hsla(9, 100%, 64%, 0.4);">hsla(9, 100%, 64%, 0.4)</h2>
-    <h2 style="background-color:hsla(9, 100%, 64%, 0.6);">hsla(9, 100%, 64%, 0.6)</h2>
-    <h2 style="background-color:hsla(9, 100%, 64%, 0.8);">hsla(9, 100%, 64%, 0.8)</h2>
-    <h2 style="background-color:hsla(9, 100%, 64%, 1);">hsla(9, 100%, 64%, 1)</h2>
-
-    <div class="first">
-        <h1>opacity 0.1</h1>
+  <!-- Header Start -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="assets/img/logo.png" alt="Quick">
+      </div>
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="#0">Overviews</a>
+          </li>
+          <li>
+            <a href="#0">Landings</a>
+          </li>
+          <li>
+            <a href="#0">Pages</a>
+          </li>
+          <li>
+            <a href="#0">Apps</a>
+          </li>
+          <li>
+            <a href="#0">Docs</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-
-    <div class="second">
-        <h1>opacity 0.3</h1>
+  </header>
+  <!-- Header End -->
+  <!-- Banner Start -->
+  <section class="banner">
+    <div class="container2">
+      <div class="banner_content">
+        <h1>It's time to amplify your
+          <span>online business</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua.</p>
+      </div>
+      <div class="banner_img">
+        <img src="assets/img/banner.png" alt="Quick_banner">
+      </div>
     </div>
-
-    <div class="third">
-        <h1>opacity 0.6</h1>
+  </section>
+  <!-- Banner End -->
+  <!-- Successfull Start -->
+  <section class="successfull">
+    <div class="container3">
+      <div class="success_content">
+        <div class="content_left">
+          <h3>3k+</h3>
+          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est laborum.
+            </p>
+        </div>
+        <div class="content_right"><h1>Successfully
+          completed projects & ideas</h1></div>
+      </div>
     </div>
+  </section>
+  <!-- Successfull End -->
 
-    <div>
-        <h1>opacity 1 (default)</h1>
+  <!-- Creativity Start -->
+  <section class="creativity">
+    <div class="container4">
+      <div class="create1 red">
+        <div class="create_img">
+          <img src="assets/img/1.png" alt="single">
+        </div>
+        <div class="create_content">
+          <h4>Unleash you creativity</h4>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+      </div>
+      <div class="create1 blue">
+        <div class="create_img">
+          <img src="assets/img/2.png" alt="single">
+        </div>
+        <div class="create_content">
+          <h4>Unleash you creativity</h4>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+      </div>
+      <div class="create1 yellow">
+        <div class="create_img">
+          <img src="assets/img/3.png" alt="single">
+        </div>
+        <div class="create_content">
+          <h4>Unleash you creativity</h4>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+      </div>
     </div>
-    <p class="dotted">A dotted border.</p>
-    <p class="dashed">A dashed border.</p>
-    <p class="solid">A solid border.</p>
-    <p class="double">A double border.</p>
-    <p class="groove">A groove border.</p>
-    <p class="ridge">A ridge border.</p>
-    <p class="inset">An inset border.</p>
-    <p class="outset">An outset border.</p>
-    <p class="none">No border.</p>
-    <p class="hidden">A hidden border.</p>
-    <p class="mix">A mixed border.</p>
-    <p class="one">Some text.</p>
-    <p class="two">Some text.</p>
-    <p class="three">Some text.</p>
-    <p class="four">Some text.</p>
-    <p class="five">Some text.</p>
-    <p class="six">Some text.</p>
-    <p class="seven">Some text.</p>
-    <p class="eight">Some text.</p>
-    <p class="nine">Some text.</p>
-    <div class="margin">
-        <p class="ex1">This paragraph has an inherited left margin (from the div element).</p>
+  </section>
+  <!-- Creativity End -->
+  <!-- Footer Start -->
+  <footer>
+    <div class="footer_container">
+      <p>© Copyright by LEDP SHERPUR. All right reserved 2020</p>
     </div>
-    <h3 class="margin1">Lorem, ipsum dolor.</h3>
-    <h4 class="margin2">Lorem, ipsum dolor.</h2>
-        <h2>Padding and element width</h2>
-
-<div class="ex2">This div is 300px wide.</div>
-<br>
-
-<div class="ex3">The width of this div is 350px, even though it is defined as 300px in the CSS.</div>
-<div class="ex4">This div is 300px wide.</div>
-<br>
-
-<div class="ex5">The width of this div remains at 300px, in spite of the 50px of total left and right padding, because of the box-sizing: border-box property.
-</div>
-<h2>The outline-style Property</h2>
-
-<div class="outline">
-    <p class="dotted1">A dotted outline</p>
-    <p class="dashed1">A dashed outline</p>
-    <p class="solid1">A solid outline</p>
-    <p class="double1">A double outline</p>
-    <p class="groove1">A groove outline. The effect depends on the outline-color value.</p>
-    <p class="ridge1">A ridge outline. The effect depends on the outline-color value.</p>
-    <p class="inset1">An inset outline. The effect depends on the outline-color value.</p>
-    <p class="outset1">An outset outline. The effect depends on the outline-color value.</p>
-</div>
-<h2>The outline-width Property</h2>
-
-<p class="ex6">A thin outline.</p>
-<p class="ex7">A medium outline.</p>
-<p class="ex8">A thick outline.</p>
-<p class="ex9">A 4px thick outline.</p>
-<p class="ex10">A outline-offset.</p>
-<h1>The text-align-last Property</h1>
-
-<h2>text-align-last: right:</h2>
-<p class="a">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
-
-<h2>text-align-last: center:</h2>
-<p class="b">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
-
-<h2>text-align-last: justify:</h2>
-<p class="c">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
-<div class="td">
-    <h1>Overline text decoration</h1>
-    <h2>Line-through text decoration</h2>
-    <h3>Underline text decoration</h3>
-    <p class="ex">Overline and underline text decoration.</p>
-    
-</div>
-<h1>Using the text-transform property</h1>
-
-<p class="uppercase">This text is transformed to uppercase.</p>
-<p class="lowercase">This text is transformed to lowercase.</p>
-<p class="capitalize">This text is capitalized.</p>
-<p class="no_wrap">
-    This is some text that will not wrap.
-    This is some text that will not wrap.
-    This is some text that will not wrap.
-    This is some text that will not wrap.
-    This is some text that will not wrap.
-    This is some text that will not wrap.
-    This is some text that will not wrap.
-    This is some text that will not wrap.
-    This is some text that will not wrap.
-    </p>
-    <h1>Using word-spacing</h1>
-
-    <p>This is a paragraph with normal word spacing.</p>
-    
-    <p class="one1">This is a paragraph with larger word spacing.</p>
-    
-    <p class="two2">This is a paragraph with smaller word spacing.</p>
-    <h1>Using line-height</h1>
-
-<p>
-This is a paragraph with a standard line-height.<br>
-The default line height in most browsers is about 110% to 120%.<br>
-</p>
-
-<p class="small">
-This is a paragraph with a smaller line-height.<br>
-This is a paragraph with a smaller line-height.<br>
-</p>
-
-<p class="big">
-This is a paragraph with a bigger line-height.<br>
-This is a paragraph with a bigger line-height.<br>
-</p>
-<h1 class="ts">Text-shadow effect!</h1>
-<h1 class="ts4">Text-shadow effect!</h1>
-<h1 class="ts2">Text-shadow with red neon glow!</h1>
-<h1 class="ts3">Text-shadow with red and blue neon glow!</h1>
-
-<h1>CSS font-family</h1>
-<p class="p1">This is a paragraph, shown in the Times New Roman font.</p>
-<p class="p2">This is a paragraph, shown in the Arial font.</p>
-<p class="p3">This is a paragraph, shown in the Lucida Console font.</p>
-<h1>The font-style property</h1>
-
-<p class="normal">This is a paragraph in normal style.</p>
-<p class="italic">This is a paragraph in italic style.</p>
-<p class="oblique">This is a paragraph in oblique style.</p>
-<h1>The font-weight property</h1>
-
-<p class="normalfw">This is a paragraph.</p>
-<p class="light">This is a paragraph.</p>
-<p class="thick">This is a paragraph.</p>
-<p class="thicker">This is a paragraph.</p>
-<h1>The font-variant property</h1>
-<p class="normalfv">My name is Hege Refsnes.</p>
-<p class="small">My name is Hege Refsnes.</p>
-<h2 class="responsiveFont">Hello World!!!</h2>
-
-<p class="af">This is a paragraph. The font size is set to 20 pixels, and the font family is Arial.</p>
-
-<p class="bf">This is a paragraph. The font is set to italic and bold, the font size is set to 12 pixels, the line height is set to 30 pixels, and the font family is Georgia.</p>
-<i class="fas fa-cloud"></i>
-<i class="fas fa-heart"></i>
-<i class="fas fa-car"></i>
-<i class="fas fa-file"></i>
-<i class="fas fa-bars"></i> <br>
-<h1>Bootstrap Icon</h1>
-<div class="bootstrapIcon">
-  <i class="bi-alarm"></i>
-  <i class="bi-phone"></i>
-  <i class="bi bi-activity"></i>
-</div>
-<!-- Google icon -->
-<i class="material-icons">cloud</i>
-<i class="material-icons">favorite</i>
-<i class="material-icons">attachment</i>
-<i class="material-icons">computer</i>
-<i class="material-icons">traffic</i>
-<i class="material-icons">
-  account_circle
-  </i>
-  <h2>Styling a link depending on state</h2>
-
-<p><b><a href="#0" target="_blank">This is a link</a></b></p>
-<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
-<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
-<p><b><a class="one" href="default.asp" target="_blank">This link changes color</a></b></p>
-<p><b><a class="two" href="default.asp" target="_blank">This link changes font-size</a></b></p>
-<p><b><a class="three" href="default.asp" target="_blank">This link changes background-color</a></b></p>
-<p><b><a class="four" href="default.asp" target="_blank">This link changes font-family</a></b></p>
-<p><b><a class="five" href="default.asp" target="_blank">This link changes text-decoration</a></b></p>
-<h2>The cursor Property</h2>
-
-<p>Mouse over the words to change the cursor.</p>
-<span style="cursor:auto">auto</span><br>
-<span style="cursor:crosshair">crosshair</span><br>
-<span style="cursor:default">default</span><br>
-<span style="cursor:e-resize">e-resize</span><br>
-<span style="cursor:help">help</span><br>
-<span style="cursor:move">move</span><br>
-<span style="cursor:n-resize">n-resize</span><br>
-<span style="cursor:ne-resize">ne-resize</span><br>
-<span style="cursor:nw-resize">nw-resize</span><br>
-<span style="cursor:pointer">pointer</span><br>
-<span style="cursor:progress">progress</span><br>
-<span style="cursor:s-resize">s-resize</span><br>
-<span style="cursor:se-resize">se-resize</span><br>
-<span style="cursor:sw-resize">sw-resize</span><br>
-<span style="cursor:text">text</span><br>
-<span style="cursor:w-resize">w-resize</span><br>
-<span style="cursor:wait">wait</span><br>
-<h1>Styling Lists With Colors</h1>
-
-<ol>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Coca Cola</li>
-</ol>
-
-<ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Coca Cola</li>
-</ul>
-<table>
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>Savings</th>
-  </tr>
-  <tr>
-    <td>Peter</td>
-    <td>Griffin</td>
-    <td>$100</td>
-  </tr>
-  <tr>
-    <td>Lois</td>
-    <td>Griffin</td>
-    <td>$150</td>
-  </tr>
-  <tr>
-    <td>Joe</td>
-    <td>Swanson</td>
-    <td>$300</td>
-  </tr>
-  <tr>
-    <td>Cleveland</td>
-    <td>Brown</td>
-    <td>$250</td>
-  </tr>
-</table>
-<table id="customers">
-  <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Berglunds snabbköp</td>
-    <td>Christina Berglund</td>
-    <td>Sweden</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
-  <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Königlich Essen</td>
-    <td>Philip Cramer</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
-  </tr>
-  <tr>
-    <td>North/South</td>
-    <td>Simon Crowther</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Paris spécialités</td>
-    <td>Marie Bertrand</td>
-    <td>France</td>
-  </tr>
-</table>
-<div style="overflow-x: auto;">
-  <table>
-    <tr>
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-    </tr>
-    <tr>
-      <td>Jill</td>
-      <td>Smith</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-    </tr>
-    <tr>
-      <td>Eve</td>
-      <td>Jackson</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-    </tr>
-    <tr>
-      <td>Adam</td>
-      <td>Johnson</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-    </tr>
-  </table>
-</div>
-<div class="ex10">This div element has width: 500px;</div>
-<br>
-
-<div class="ex12">This div element has max-width: 500px;</div>
+  </footer>
+  <!-- Footer End -->
 </body>
 
 </html>
