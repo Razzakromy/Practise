@@ -1,3 +1,3 @@
 # Practise
 practise project Live: 
-https://razzakromy.github.io/Practise/
+https://razzakromy.github.io/quick/
